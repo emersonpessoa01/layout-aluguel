@@ -1,4 +1,4 @@
 # soluções-digitais
 Montando um site responsivo
 
-### Preview: [Design-responsivo](https://design-responsivo.netlify.app/)
+### Preview app: [Design-responsivo](https://design-responsivo.netlify.app/)
