@@ -11,6 +11,8 @@
 body {
   /* background-color: #514562; */
   background-color: #3F2D59;
+  /* background-color: #000d5c; */
+  background-color: #002140;
 
   /* background-color: #f5f5f5; */
   /* background-color: #d9d9d9; */
@@ -48,7 +50,7 @@ header {
 
 .bg-black{
   /* background-color:#130400; */
-  background-color:#514562;
+  background-color:#000d5c;
 
 }
 
@@ -108,7 +110,7 @@ header {
   height: auto;
   position: fixed; 
   /* background-color:rgba(0,0,0,0.9); */
-  background-color:#3f2d59;
+  background-color:#002140;
   top: 0;
   left: 0;
    
@@ -127,7 +129,7 @@ header {
   width: 100%;
   float: left;
   text-align: center;
-  background: #3F2D59;
+  background: #002140;
  
    
 }  
@@ -332,17 +334,17 @@ e uma expressão
   .logo {
     /* width: 214px; */
     width: 114px;
-    height: 100px; /*add*/
+    /* height: 100px; add */
     float: left;
-    background: url(../image/é_de_casa.png) center center/95px no-repeat;
+    background: url(../image/logo_13.jpg) center center/95px no-repeat;
     
   }
   /*add */
-  .logo:hover {
-    border:2px solid #6610f2;  /*add*/
-    border-radius: 4px; /*add*/
+  /* .logo:hover {
+    border:2px solid #302c35;
+    border-radius: 4px;
 
-  }
+  } */
 }
 
 /* SMALL DEVICES - TABLETS */
