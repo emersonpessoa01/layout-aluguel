@@ -9,8 +9,8 @@
   font-family: "Lexend", "Lato", sans-serif;
 }
 body {
-  background-color: #514562;
-  /* background-color: #3F2D59; */
+  /* background-color: #514562; */
+  background-color: #3F2D59;
 
   /* background-color: #f5f5f5; */
   /* background-color: #d9d9d9; */
@@ -32,9 +32,6 @@ img {
 header {
   position: top;
 }
-main > article > a > img:hover{
-
-}
 /*======= CONTAINER ===== */
 .container {
   width:100%;
@@ -51,7 +48,7 @@ main > article > a > img:hover{
 
 .bg-black{
   /* background-color:#130400; */
-  background-color:#3F2D59; /*add*/
+  background-color:#514562;
 
 }
 
@@ -63,7 +60,7 @@ main > article > a > img:hover{
 .bg-button:hover{
   background-color:transparent;
   transition: all 0.5s ease;
-  border:2px solid #6610f2;
+  border:3px solid #6610f2;
   background: -webkit-linear-gradient(#6610f2,#00d4ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -130,7 +127,7 @@ main > article > a > img:hover{
   width: 100%;
   float: left;
   text-align: center;
-  background: #514562;
+  background: #3F2D59;
  
    
 }  
