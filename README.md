@@ -1,4 +1,4 @@
 # soluções-digitais
-Montando um site responsivo
+Montando um site de aluguel por temporada. Desafio proposto pelo professor de Web Design a título de prova.
 
-### Preview app: [Design-responsivo](https://design-responsivo.netlify.app/)
+### Preview app: [layout-aluguel](https://layout-aluguel.netlify.app/)
