@@ -33,7 +33,9 @@ img {
 
 header {
   position: top;
+ 
 }
+
 /*======= CONTAINER ===== */
 .container {
   width:100%;
@@ -336,12 +338,12 @@ e uma expressão
     width: 114px;
     /* height: 100px; add */
     float: left;
-    background: url(../image/logo_13.jpg) center center/95px no-repeat;
+    background: url(../image/logo_14.jpg) center center/95px no-repeat;
     
   }
   /*add */
   /* .logo:hover {
-    border:2px solid #302c35;
+    border:2px solid #002140;
     border-radius: 4px;
 
   } */
@@ -466,5 +468,6 @@ e uma expressão
 
 
   }
+  
 
 }
