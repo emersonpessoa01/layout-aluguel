@@ -367,13 +367,14 @@ e uma expressão
   }
   .newsletter input{
     width:70%;
-    padding: 2%;
+    /* padding: 2%; */ /*afetou a attura*/
     float:left;
     margin-right:1%;
   }
   .newsletter button{
     width:29%;
-    padding: 2%;
+    /* padding: 2%; */
+    padding: 1.5%;
     float:right;
     margin-top:0;
 
@@ -390,10 +391,12 @@ e uma expressão
 
   }
   .title h2{
-    font-size: 3em;
+    /* font-size: 3em; */
+    font-size: 2em;
   }
   .title h3{
-    font-size: 2em;
+    /* font-size: 2em; */
+    font-size: 1.5em;
   }
   .buttons{
     width:30%;
@@ -411,11 +414,13 @@ e uma expressão
     margin-right:0;
   }
   .newsletter input{
-    width:60%;
+    /* width:60%; */
+    width:50%;
     float:none;
   }
   .newsletter button{
-    width: 20%;
+    /* width: 20%; */
+    width: 15%;
     float:none;
     
   }
