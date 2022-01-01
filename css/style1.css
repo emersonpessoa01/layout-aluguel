@@ -90,11 +90,6 @@ header {
   background: url(../image/logo_casa02.png) center center/56px no-repeat;
   font-size: 0;/*  0 para desaparecer o texto e >0 para aparecer*/
 }
-
-.button-center{
-  
-  align-items: center;
-}
 .btn-menu{
   width: 56px;
   height: 56px;
@@ -207,6 +202,7 @@ header {
 }
   
 .container .servico img{
+  width: 100%; /*add */
   height: 100%;
   border-radius: 7px 7px 0 0;
   box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffff; /*add*/
@@ -215,6 +211,8 @@ header {
 }
 .servico img:hover{
   box-shadow: 2px 2px 5px #6610f2, -2px -2px 5px #3F2D59; /*add*/
+  cursor: pointer;
+
   
   
 
@@ -223,8 +221,6 @@ header {
 .inner{
   padding:7%;
   box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffff; /*add*/
-  
- 
  
   
 }
@@ -238,11 +234,6 @@ header {
   /* color: #130400; */
   color: #6d6a6a;
   margin-top:2%;
-  
-}
-.inner h4:hover{
-  color:red;
-  
   
 }
 .inner p{
@@ -364,9 +355,9 @@ e uma expressão
 /* SMALL DEVICES - TABLETS */
 @media screen and (min-width:768px){
   .servico{
-    width:49%;
+    width:100%;
     float:left;
-    margin-right:2%;
+    /* margin-right:2%; */
   }
   .servico:nth-child(2){
     margin-right:0;
@@ -379,7 +370,7 @@ e uma expressão
   }
   .newsletter input{
     width:70%;
-    /* padding: 2%; */ /*afetou a attura*/
+    /* padding: 2%; */ /*afetou a altura*/
     float:left;
     margin-right:1%;
   }
@@ -417,7 +408,8 @@ e uma expressão
 
   }
   .servico{
-    width: 32%;
+    /* width: 32%; */
+    width: 100%; /*pega toda largura do article servico*/
   }
   .servico:nth-child(2){
     margin-right:2%;
