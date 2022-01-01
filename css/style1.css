@@ -33,7 +33,6 @@ img {
 
 header {
   position: top;
- 
 }
 
 /*======= CONTAINER ===== */
@@ -46,19 +45,15 @@ header {
 /*======= BG-COLORS ===== */
 .bg-gradient{
   /* background: linear-gradient(to right, #ce2e3c,#da6709); */ /*add */
-  background: linear-gradient(to right, #3F2D59,#6610f2, #3F2D59);
-  
+  background: linear-gradient(to right, #3F2D59,#6610f2, #3F2D59); 
 }
-
 .bg-black{
   /* background-color:#130400; */
   background-color:#000d5c;
-
 }
 
 .bg-white{
   background-color:#fff;
-
 }
 /*add */
 .bg-button:hover{
@@ -71,11 +66,7 @@ header {
   /* border: 0.5px solid #fff; */
   /* box-shadow: 1px 1px 3px #d9d9d9, -1px -1px 3px #fff ; add */
   /* color: #fff; */
-
-
 }
-
-
 /*======= HELPERS ===== */
 .radius{
   /* border-radius:7px; */
@@ -125,25 +116,20 @@ header {
   /* margin-right: 5%; */
   /* margin: 2% 3% 0 0; */
   margin: 6% 8% 0 0; /*add */
-
 }
 .menu ul{
   width: 100%;
   float: left;
   text-align: center;
-  background: #002140;
- 
-   
+  background: #002140; 
 }  
 .menu li{
-  padding:1.5%;
-  
+  padding:1.5%; 
 }
 .menu li a{
   font-size:2em;
   color: #fff;
   padding:1.5% 3%
-
 }
 .menu li a:hover{
   /* border:1px solid #da6709; */
@@ -158,7 +144,6 @@ header {
 .banner{
   background: url(../image/casa_palmeira02.jpg) no-repeat center fixed;
   background-size:cover;
-
 }
 .title{
   width:100%;
@@ -166,14 +151,12 @@ header {
 .title h2{
   font-size: 2.5em;
   color:#fff ;
-  font-weight: 700;
-  
+  font-weight: 700; 
 }
 .title h3{
   font-size: 1.5em;
   color: #fff;
   margin-bottom: 2.5%
-
 }
 .title h4{
   font-size: 1.5em;
@@ -188,9 +171,6 @@ header {
 .buttons i{
   float: right;
 }
-
-
-
 /*SERVICOS*/
 .servico{
   width:100%;
@@ -205,30 +185,24 @@ header {
   width: 100%; /*add */
   height: 100%;
   border-radius: 7px 7px 0 0;
-  box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffff; /*add*/
-  
-  
+  box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffff; /*add*/ 
 }
 .servico img:hover{
   box-shadow: 2px 2px 5px #6610f2, -2px -2px 5px #3F2D59; /*add*/
   cursor: pointer;
-
-  
-  
-
 }
 
 .inner{
   padding:7%;
-  box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffff; /*add*/
- 
-  
+  box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffff; /*add*/ 
 }
+/*
 .inner a{
   /* font-size:1.5em;
   color: #130400;
-  font-weight: 700; */
+  font-weight: 700;
 }
+*/
 .inner h4{
   font-size: 1.2em;
   /* color: #130400; */
@@ -260,14 +234,10 @@ header {
   color: #fff;
   border: 1px solid rgba(255,255,255,0.3);
   padding:1.5%;
-
-
 }
 /*add */
 .newsletter input:focus{
   box-shadow: 1px 1px 3px #d9d9d9, -1px -1px 3px #fff;
-
-
 }
 .newsletter button{
   width: 100%;
@@ -379,10 +349,8 @@ e uma expressão
     /* padding: 2%; */
     padding: 1.5%;
     float:right;
-    margin-top:0;
-
+    margin-top:0
   }
-
 }
 
 /* MEDIUM DEVICES - TABLETS & DESKTOPS */
@@ -391,7 +359,6 @@ e uma expressão
     width: 70%;
     float:left;
     text-align:left;
-
   }
   .title h2{
     /* font-size: 3em; */
@@ -405,7 +372,6 @@ e uma expressão
     width:30%;
     float:right;
     margin-top:0;
-
   }
   .servico{
     /* width: 32%; */
@@ -425,20 +391,17 @@ e uma expressão
   .newsletter button{
     /* width: 20%; */
     width: 15%;
-    float:none;
-    
+    float:none; 
   }
 
 /* LARGE DEVICES - WIDES SCREENS */
 @media screen and (min-width:1280px){
   
   .btn-menu{
-    display: none;
-    
+    display: none; 
   }
   .btn-close{
     display: none;
-
   }
   .menu{
     width:auto;
@@ -448,12 +411,10 @@ e uma expressão
     background-color: #f5f5f5;
     display: block !important; /*forcar display: block*/
     position:static;
-
   }
   .menu li{
     padding:0;
     float:left;
-
   }
   .menu li a{
     /* color:#130400; */
@@ -464,19 +425,13 @@ e uma expressão
     border:none; /*remove a borda*/
     /* color: #da6709; */
     /* color: #046a9f; */
-
   }
   /*add*/
   .menu li a.active{
     color: #046a9f;
-
   }
   /*add */
   .menu li a.active:hover{
     color: #0d99e4;
-
-
   }
-  
-
 }

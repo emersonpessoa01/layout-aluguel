@@ -53,12 +53,10 @@ header {
 .bg-black{
   /* background-color:#130400; */
   background-color:#000d5c;
-
 }
 
 .bg-white{
   background-color:#fff;
-
 }
 /*add */
 .bg-button:hover{
@@ -71,8 +69,6 @@ header {
   /* border: 0.5px solid #fff; */
   /* box-shadow: 1px 1px 3px #d9d9d9, -1px -1px 3px #fff ; add */
   /* color: #fff; */
-
-
 }
 
 
@@ -92,7 +88,6 @@ header {
 }
 
 .button-center{
-  
   align-items: center;
 }
 .btn-menu{
@@ -141,8 +136,7 @@ header {
    
 }  
 .menu li{
-  padding:1.5%;
-  
+  padding:1.5%; 
 }
 .menu li a{
   font-size:2em;
@@ -184,7 +178,6 @@ header {
   font-size: 1.5em;
   color: #fff;
   margin-bottom: 2.5%
-
 }
 .buttons{
   width:100%;
@@ -193,8 +186,6 @@ header {
 .buttons i{
   float: right;
 }
-
-
 
 /*SERVICOS*/
 .servico{
@@ -215,24 +206,19 @@ header {
 }
 .servico img:hover{
   box-shadow: 2px 2px 5px #6610f2, -2px -2px 5px #3F2D59; /*add*/
-  
-  
-
 }
 
 .inner{
   padding:7%;
   box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffff; /*add*/
-  
- 
- 
-  
 }
-.inner a{
+/*
+.inner >a{
   /* font-size:1.5em;
   color: #130400;
-  font-weight: 700; */
+  font-weight: 700;
 }
+*/
 .inner h4{
   font-size: 1.2em;
   /* color: #130400; */
@@ -242,8 +228,6 @@ header {
 }
 .inner h4:hover{
   color:red;
-  
-  
 }
 .inner p{
   margin-top:6%;
@@ -275,8 +259,6 @@ header {
 /*add */
 .newsletter input:focus{
   box-shadow: 1px 1px 3px #d9d9d9, -1px -1px 3px #fff;
-
-
 }
 .newsletter button{
   width: 100%;
@@ -304,7 +286,6 @@ header {
 .copyright {
  margin-top: 2%;
  color:rgba(255,255,255,0.7);
-
 }
 
 /* MEDIA TYPES::
@@ -389,7 +370,6 @@ e uma expressão
     padding: 1.5%;
     float:right;
     margin-top:0;
-
   }
 
 }
@@ -414,7 +394,6 @@ e uma expressão
     width:30%;
     float:right;
     margin-top:0;
-
   }
   .servico{
     width: 32%;
@@ -433,20 +412,17 @@ e uma expressão
   .newsletter button{
     /* width: 20%; */
     width: 15%;
-    float:none;
-    
+    float:none;  
   }
 
 /* LARGE DEVICES - WIDES SCREENS */
 @media screen and (min-width:1280px){
   
   .btn-menu{
-    display: none;
-    
+    display: none; 
   }
   .btn-close{
     display: none;
-
   }
   .menu{
     width:auto;
@@ -456,12 +432,10 @@ e uma expressão
     background-color: #f5f5f5;
     display: block !important; /*forcar display: block*/
     position:static;
-
   }
   .menu li{
     padding:0;
     float:left;
-
   }
   .menu li a{
     /* color:#130400; */
@@ -472,19 +446,13 @@ e uma expressão
     border:none; /*remove a borda*/
     /* color: #da6709; */
     /* color: #046a9f; */
-
   }
   /*add*/
   .menu li a.active{
     color: #046a9f;
-
   }
   /*add */
   .menu li a.active:hover{
     color: #0d99e4;
-
-
   }
-  
-
 }
