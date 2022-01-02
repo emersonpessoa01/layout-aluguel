@@ -210,6 +210,10 @@ header {
   margin-top:2%;
   
 }
+.inner h4:hover{
+  color: red;
+  cursor:pointer; 
+}
 .inner p{
   margin-top:6%;
   color:#1f1e1e;
