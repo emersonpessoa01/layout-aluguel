@@ -180,13 +180,13 @@ header {
   color: #fff;
   margin-bottom: 2.5%
 }
-.buttons{
+/* .buttons{
   width:100%;
 
-}
-.buttons i{
+} */
+/* .buttons i{
   float: right;
-}
+} */
 
 /*SERVICOS*/
 .servico{
@@ -269,10 +269,13 @@ header {
 .newsletter button{
   width: 100%;
   /* color: #130400; add*/
-  color: #6610f2;
+  /* color: #6610f2; */
+  color: #000d5c;
+  
   padding: 2%;
   cursor: pointer;
   margin-top: 2%; 
+  border:2px solid #fff; /*add */
 }
 /* RODAPE */
 
@@ -331,7 +334,8 @@ e uma expressão
  
 /*=====MOBILE FIRST===== */
 /* SMALL DEVICES - SMARTPHONES */
-@media screen and (min-width:480px){ 
+@media screen and (min-width:480px){
+ 
   .logo {
     /* width: 214px; */
     width: 114px;
@@ -354,7 +358,7 @@ e uma expressão
     width:49%;
     float:left;
     margin-right:2%;
-    margin-top:2%;
+    margin-top:2%; /*add*/
     
   }
   .servico:nth-child(2){
@@ -401,11 +405,11 @@ e uma expressão
     /* font-size: 2em; */
     font-size: 1.5em;
   }
-  .buttons{
+  /* .buttons{
     width:30%;
     float:right;
     margin-top:0;
-  }
+  } */
   .servico{
     width: 32%;
     

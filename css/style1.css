@@ -247,10 +247,12 @@ header {
 .newsletter button{
   width: 100%;
   /* color: #130400; add*/
-  color: #6610f2;
+  /* color: #6610f2; */
+  color: #000d5c;
   padding: 2%;
   cursor: pointer;
   margin-top: 2%; 
+  border:2px solid #fff; /*add */
 }
 /* RODAPE */
 
