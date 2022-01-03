@@ -36,6 +36,7 @@ header {
  
 }
 
+
 /*======= CONTAINER ===== */
 .container {
   width:100%;
@@ -204,9 +205,14 @@ header {
   
   
 }
-.servico img:hover{
-  box-shadow: 2px 2px 5px #6610f2, -2px -2px 5px #3F2D59; /*add*/
+.servico:hover{ /*add*/
+  transform: scale(1.05)
 }
+.servico img:hover{ /*sombra da imagem*/
+  box-shadow: 2px 2px 5px #6610f2, -2px -2px 5px #3F2D59; /*add*/
+
+}
+
 
 .inner{
   padding:7%;
