@@ -206,7 +206,7 @@ header {
   
 }
 .servico:hover{ /*add*/
-  transform: scale(1.05)
+  transform: scale(1.03)
 }
 .servico img:hover{ /*sombra da imagem*/
   box-shadow: 2px 2px 5px #6610f2, -2px -2px 5px #3F2D59; /*add*/
@@ -331,7 +331,7 @@ e uma expressão
  
 /*=====MOBILE FIRST===== */
 /* SMALL DEVICES - SMARTPHONES */
-@media screen and (min-width:480px){
+@media screen and (min-width:480px){ 
   .logo {
     /* width: 214px; */
     width: 114px;
@@ -354,6 +354,8 @@ e uma expressão
     width:49%;
     float:left;
     margin-right:2%;
+    margin-top:2%;
+    
   }
   .servico:nth-child(2){
     margin-right:0;
@@ -382,6 +384,9 @@ e uma expressão
 
 /* MEDIUM DEVICES - TABLETS & DESKTOPS */
 @media screen and (min-width:960px){
+  .servico{
+    margin-top:2%;
+  }
   .title{
     width: 70%;
     float:left;
@@ -403,6 +408,7 @@ e uma expressão
   }
   .servico{
     width: 32%;
+    
   }
   .servico:nth-child(2){
     margin-right:2%;
@@ -423,7 +429,6 @@ e uma expressão
 
 /* LARGE DEVICES - WIDES SCREENS */
 @media screen and (min-width:1280px){
-  
   .btn-menu{
     display: none; 
   }
