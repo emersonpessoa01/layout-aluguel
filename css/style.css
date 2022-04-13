@@ -59,6 +59,9 @@ header {
 .bg-white{
   background-color:#fff;
 }
+.bg-white img{
+  width:100%;
+}
 /*add */
 .bg-button:hover{
   background-color:transparent;
@@ -116,6 +119,7 @@ header {
   background-color:#002140;
   top: 0;
   left: 0;
+  z-index: 1000;
    
 }
 .btn-close{
@@ -132,7 +136,9 @@ header {
   width: 100%;
   float: left;
   text-align: center;
-  background: #002140;
+  background: #d9d9d9;
+  
+
  
    
 }  
@@ -188,8 +194,16 @@ header {
   float: right;
 } */
 
+/* CARD*/
+.card{
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
 /*SERVICOS*/
 .servico{
+  margin-top:3%;
   width:100%;
   text-align: left;
   margin-bottom: 3%;
@@ -236,9 +250,10 @@ header {
   color:red;
 }
 .inner p{
+  font-size: .8em;
   margin-top:6%;
   color:#1f1e1e;
-  line-height: 1.5em;
+  /* line-height: 1.5em; */
 }
 
 /*NEWSLETTER*/

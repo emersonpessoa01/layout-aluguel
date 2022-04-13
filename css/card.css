@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #d9d9d9;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* card container (div pai) */
+  .main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  /* Card (div filho)*/
+  .card {
+    /* flex: 1 1 300px; */
+    width: 300px;
+    height: 510px;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  /* div da imagem */
+  .card-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  /* imagem */
+  .card .card-img {
+    /*width:640px*/
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  /* Card body */
+  .card-body {
+    height: 170px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+  }
+  /* title h3 */
+  .card-local {
+    font-size: 22px;
+    margin: 2px 0;
+  }
+  /* title h2 */
+  .card-titulo {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  /* parágrafo */
+  .card-texto {
+    font-size: 12px;
+    margin: 0 auto;
+  }
+  /* Card Footer(div do link) */
+  .card-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #000;
+    transition: box-shadow 1s ease;
+    /* configuração de transição do link */
+  }
+  .card-footer:hover {
+    box-shadow: inset 460px 0 0 #00000099;
+    color: #fff;
+  }
+  
+  
+  .card-footer a {
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: "Lexend", "Lato", Arial, sans-serif;
+  }
+  
+  /* Cores dos cards */
+  .card-1 .card-footer {
+    background-color: #2740d1;
+  }
+  .card-1 .card-local {
+    color: #2740d1;
+  }
+  .card-2 .card-footer {
+    background-color: #d12761;
+  }
+  .card-2 .card-local {
+    color: #d12761;
+  }
+  .card-3 .card-footer {
+    background-color: #00c702;
+  }
+  .card-3 .card-local {
+    color: #00c702;
+  }
+  
+  /* Animação Hover */
+  .card .card-img:hover {
+    transform: scale3d(1.1, 1.1, 1);
+  }
